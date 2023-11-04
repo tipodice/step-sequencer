@@ -1,5 +1,5 @@
 import './App.css';
-import StepSequencer from './components/StepSequencer.jsx';
+import { StepSequencer } from './components/StepSequencer.jsx';
 
 function App() {
 

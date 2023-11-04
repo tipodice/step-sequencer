@@ -4,7 +4,7 @@ import { Players, Transport, Loop } from 'tone';
 import { useRef } from 'react';
 
 
-function StepSequencer({rows, cols}) {
+export function StepSequencer({rows, cols}) {
 
 
 	const rowNum = rows && rows <= 4 ? rows : 4;
@@ -194,5 +194,3 @@ function StepSequencer({rows, cols}) {
 	);
 }
 
-
-export default StepSequencer;
